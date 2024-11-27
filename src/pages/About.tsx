@@ -107,7 +107,7 @@ const About = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center px-6 py-3 rounded-full bg-white text-accent/60 font-semibold hover:bg-blue-50 transition-colors"
+            className="inline-flex items-center px-6 py-3 rounded-full bg-white text-primary/60 font-semibold hover:bg-accent/50 transition-colors"
           >
             Get in Touch
             <ArrowRight className="ml-2 h-5 w-5" />
