@@ -46,12 +46,12 @@ const Services = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div >
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Our Services</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 mt-8">Our Services</h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Comprehensive technology solutions for your business needs
             </p>
@@ -68,15 +68,15 @@ const Services = () => {
                 key={index}
                 className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                <div className="text-blue-600 mb-4">{service.icon}</div>
+                <div className="text-primary mb-4">{service.icon}</div>
                 <h3 className="text-2xl font-semibold mb-4">{service.title}</h3>
                 <p className="text-gray-600 mb-6">{service.description}</p>
                 <Link
-                  to="/contact"
-                  className="inline-flex items-center text-blue-600 hover:text-blue-700"
-                >
-                  Learn more <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
+            to="/contact"
+            className="inline-flex items-center px-6 py-3 rounded-full bg-white text-primary font-semibold hover:bg-primmary hover:text-primary transition-colors"
+          >
+            Learn More <ArrowRight className="ml-2 h-5 w-5" />
+          </Link>
               </div>
             ))}
           </div>
@@ -84,7 +84,7 @@ const Services = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gray-50 py-20">
+      <section className="bg-primary py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-xl text-gray-600 mb-8">
@@ -92,7 +92,7 @@ const Services = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 rounded-full bg-white text-primary font-semibold hover:bg-accent hover:text-white transition-colors"
           >
             Contact Us
             <ArrowRight className="ml-2 h-5 w-5" />

@@ -33,12 +33,12 @@ const About = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div >
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary/60 to-primary/80 text-white py-20">
+      <section className="bg-gradient-to-r from-primary to-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">About Tekrem</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 mt-8">About Tekrem</h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Driving digital transformation through innovation
             </p>
@@ -68,7 +68,7 @@ const About = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <p className="text-gray-600 mb-8">
-              Founded in 2014, Tekrem has been at the forefront of digital innovation,
+              Founded in 2023, Tekrem has been at the forefront of digital innovation,
               helping businesses transform and thrive in the digital age. Our team of
               experts combines deep technical knowledge with industry expertise to
               deliver solutions that drive real business value.
@@ -99,7 +99,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-primary/60 text-white py-20">
+      <section className="bg-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Join Our Journey</h2>
           <p className="text-xl mb-8">
@@ -107,7 +107,7 @@ const About = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center px-6 py-3 rounded-full bg-white text-primary/60 font-semibold hover:bg-accent/50 transition-colors"
+            className="inline-flex items-center px-6 py-3 rounded-full bg-white text-primary font-semibold hover:bg-accent hover:text-white transition-colors"
           >
             Get in Touch
             <ArrowRight className="ml-2 h-5 w-5" />
