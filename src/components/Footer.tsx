@@ -55,7 +55,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li>Lusaka, Zambia.</li>
               <li>Phone: (260) 976-607-840</li>
-              <li>Email:  tekremsolutions@gmail.com</li>
+              <li>Email: tekremsolutions@gmail.com</li>
             </ul>
           </div>
         </div>
