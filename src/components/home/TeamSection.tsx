@@ -22,7 +22,7 @@ const team = [
   {
     name: 'Joseph Banda',
     role: 'Sales Representative/Finance',
-    image: '/assets/images/bg-theme.png',
+    image: '/assets/images/jb98.png',
   }, 
 ];
 
