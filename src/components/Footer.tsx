@@ -43,7 +43,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-primart transition-colors">Cloud Solutions</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">Cloud Solutions</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">AI & Machine Learning</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">Cybersecurity</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">Digital Transformation</a></li>
