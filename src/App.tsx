@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Login from './pages/Login';
+import CreatePost from './pages/admin/CreatePost';
+import ProtectedRoute from './components/ProtectedRoute';
 import CloudSolutions from './pages/services/CloudSolutions';
 import AiMl from './pages/services/AiMl';
 import Cybersecurity from './pages/services/Cybersecurity';
@@ -32,6 +35,15 @@ function App() {
           <Route path="/services/custom-development" element={<CustomDev />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
+          <Route
+            path="/admin/posts/create"
+            element={
+              <ProtectedRoute allowedRoles={['ADMIN', 'STAFF']}>
+                <CreatePost />
+              </ProtectedRoute>
+            }
+          />
         </Routes>
         <Footer />
       </div>
